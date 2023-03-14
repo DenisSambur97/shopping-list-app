@@ -142,3 +142,61 @@ button:hover {
 .completed {
   text-decoration: line-through;
 }
+
+@media screen and (max-width: 720px){
+  * {
+    font-size: 21px;
+  }
+  .main-container{
+    margin: 20px;
+    width: 400px;
+  }
+  .heading{
+    font-size: 24px;
+  }
+  .add-item-box {
+    height: 20px;
+  }
+  .add-item-box svg {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  .add-item-input{
+    font-size: 16px;
+  }
+
+  input::placeholder {
+    color: #ec645b;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  * {
+    font-size: 16px;
+  }
+  .main-container{
+    margin: 20px;
+    width: 350px;
+  }
+  .heading{
+    font-size: 24px;
+  }
+  .add-item-box {
+    height: 20px;
+  }
+  .add-item-box svg {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+  }
+  .add-item-input{
+    font-size: 16px;
+  }
+
+  input::placeholder {
+    color: #ec645b;
+    font-size: 16px;
+  }
+}
